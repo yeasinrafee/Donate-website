@@ -1,0 +1,56 @@
+/* Font link */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.heading-primary{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.text{
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.btn{
+    padding: 16px 12px;
+    background: #FF5959;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+/* Banner-section */
+.section-banner{
+    width: 100%;
+    height: 100%;
+    padding: 175px 308px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../images/donation13.jpg');
+    background-color: grey;
+    background-blend-mode: multiply;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-container{
+    text-align: center;
+    width: 826px;
+    height: 320px;
+}
